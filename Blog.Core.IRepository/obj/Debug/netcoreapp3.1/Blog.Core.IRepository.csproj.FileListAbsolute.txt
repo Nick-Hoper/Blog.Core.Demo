@@ -1,0 +1,8 @@
+E:\Blog\Blog.Core.IRepository\bin\Debug\netcoreapp3.1\Blog.Core.IRepository.deps.json
+E:\Blog\Blog.Core.IRepository\bin\Debug\netcoreapp3.1\Blog.Core.IRepository.dll
+E:\Blog\Blog.Core.IRepository\bin\Debug\netcoreapp3.1\Blog.Core.IRepository.pdb
+E:\Blog\Blog.Core.IRepository\obj\Debug\netcoreapp3.1\Blog.Core.IRepository.AssemblyInfoInputs.cache
+E:\Blog\Blog.Core.IRepository\obj\Debug\netcoreapp3.1\Blog.Core.IRepository.AssemblyInfo.cs
+E:\Blog\Blog.Core.IRepository\obj\Debug\netcoreapp3.1\Blog.Core.IRepository.csproj.CoreCompileInputs.cache
+E:\Blog\Blog.Core.IRepository\obj\Debug\netcoreapp3.1\Blog.Core.IRepository.dll
+E:\Blog\Blog.Core.IRepository\obj\Debug\netcoreapp3.1\Blog.Core.IRepository.pdb

@@ -9,4 +9,9 @@
     <DocumentationFile>E:\Blog\Blog.Core.Model\Blog.Core.Model.xml</DocumentationFile>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Folder Include="Models\" />
+    <Folder Include="VeiwModels\" />
+  </ItemGroup>
+
 </Project>

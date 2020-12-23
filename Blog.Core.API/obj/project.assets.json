@@ -76,6 +76,26 @@
           "Microsoft.AspNetCore.App"
         ]
       },
+      "Blog.Core.IRepository/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/Blog.Core.IRepository.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Blog.Core.IRepository.dll": {}
+        }
+      },
+      "Blog.Core.IService/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/Blog.Core.IService.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Blog.Core.IService.dll": {}
+        }
+      },
       "Blog.Core.Model/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
@@ -84,6 +104,34 @@
         },
         "runtime": {
           "bin/placeholder/Blog.Core.Model.dll": {}
+        }
+      },
+      "Blog.Core.Repository/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "Blog.Core.IRepository": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Blog.Core.Repository.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Blog.Core.Repository.dll": {}
+        }
+      },
+      "Blog.Core.Service/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "Blog.Core.IRepository": "1.0.0",
+          "Blog.Core.IService": "1.0.0",
+          "Blog.Core.Repository": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Blog.Core.Service.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Blog.Core.Service.dll": {}
         }
       }
     }
@@ -196,15 +244,37 @@
         "swashbuckle.aspnetcore.swaggerui.nuspec"
       ]
     },
+    "Blog.Core.IRepository/1.0.0": {
+      "type": "project",
+      "path": "../Blog.Core.IRepository/Blog.Core.IRepository.csproj",
+      "msbuildProject": "../Blog.Core.IRepository/Blog.Core.IRepository.csproj"
+    },
+    "Blog.Core.IService/1.0.0": {
+      "type": "project",
+      "path": "../Blog.Core.IService/Blog.Core.IService.csproj",
+      "msbuildProject": "../Blog.Core.IService/Blog.Core.IService.csproj"
+    },
     "Blog.Core.Model/1.0.0": {
       "type": "project",
       "path": "../Blog.Core.Model/Blog.Core.Model.csproj",
       "msbuildProject": "../Blog.Core.Model/Blog.Core.Model.csproj"
+    },
+    "Blog.Core.Repository/1.0.0": {
+      "type": "project",
+      "path": "../Blog.Core.Repository/Blog.Core.Repository.csproj",
+      "msbuildProject": "../Blog.Core.Repository/Blog.Core.Repository.csproj"
+    },
+    "Blog.Core.Service/1.0.0": {
+      "type": "project",
+      "path": "../Blog.Core.Service/Blog.Core.Service.csproj",
+      "msbuildProject": "../Blog.Core.Service/Blog.Core.Service.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
+      "Blog.Core.IService >= 1.0.0",
       "Blog.Core.Model >= 1.0.0",
+      "Blog.Core.Service >= 1.0.0",
       "Swashbuckle.AspNetCore >= 5.6.3"
     ]
   },
@@ -235,8 +305,14 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
+            "E:\\Blog\\Blog.Core.IService\\Blog.Core.IService.csproj": {
+              "projectPath": "E:\\Blog\\Blog.Core.IService\\Blog.Core.IService.csproj"
+            },
             "E:\\Blog\\Blog.Core.Model\\Blog.Core.Model.csproj": {
               "projectPath": "E:\\Blog\\Blog.Core.Model\\Blog.Core.Model.csproj"
+            },
+            "E:\\Blog\\Blog.Core.Service\\Blog.Core.Service.csproj": {
+              "projectPath": "E:\\Blog\\Blog.Core.Service\\Blog.Core.Service.csproj"
             }
           }
         }

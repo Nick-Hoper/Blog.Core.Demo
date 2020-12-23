@@ -1,0 +1,12 @@
+E:\Blog\Blog.Core.Repository\bin\Debug\netcoreapp3.1\Blog.Core.Repository.deps.json
+E:\Blog\Blog.Core.Repository\bin\Debug\netcoreapp3.1\Blog.Core.Repository.dll
+E:\Blog\Blog.Core.Repository\bin\Debug\netcoreapp3.1\Blog.Core.Repository.pdb
+E:\Blog\Blog.Core.Repository\bin\Debug\netcoreapp3.1\Blog.Core.IRepository.dll
+E:\Blog\Blog.Core.Repository\bin\Debug\netcoreapp3.1\Blog.Core.IRepository.pdb
+E:\Blog\Blog.Core.Repository\obj\Debug\netcoreapp3.1\Blog.Core.Repository.csprojAssemblyReference.cache
+E:\Blog\Blog.Core.Repository\obj\Debug\netcoreapp3.1\Blog.Core.Repository.AssemblyInfoInputs.cache
+E:\Blog\Blog.Core.Repository\obj\Debug\netcoreapp3.1\Blog.Core.Repository.AssemblyInfo.cs
+E:\Blog\Blog.Core.Repository\obj\Debug\netcoreapp3.1\Blog.Core.Repository.csproj.CoreCompileInputs.cache
+E:\Blog\Blog.Core.Repository\obj\Debug\netcoreapp3.1\Blog.Core.Repository.csproj.CopyComplete
+E:\Blog\Blog.Core.Repository\obj\Debug\netcoreapp3.1\Blog.Core.Repository.dll
+E:\Blog\Blog.Core.Repository\obj\Debug\netcoreapp3.1\Blog.Core.Repository.pdb

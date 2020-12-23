@@ -1,0 +1,16 @@
+E:\Blog\Blog.Core.Service\bin\Debug\netcoreapp3.1\Blog.Core.Service.deps.json
+E:\Blog\Blog.Core.Service\bin\Debug\netcoreapp3.1\Blog.Core.Service.dll
+E:\Blog\Blog.Core.Service\bin\Debug\netcoreapp3.1\Blog.Core.Service.pdb
+E:\Blog\Blog.Core.Service\bin\Debug\netcoreapp3.1\Blog.Core.IRepository.dll
+E:\Blog\Blog.Core.Service\bin\Debug\netcoreapp3.1\Blog.Core.IService.dll
+E:\Blog\Blog.Core.Service\bin\Debug\netcoreapp3.1\Blog.Core.Repository.dll
+E:\Blog\Blog.Core.Service\bin\Debug\netcoreapp3.1\Blog.Core.IRepository.pdb
+E:\Blog\Blog.Core.Service\bin\Debug\netcoreapp3.1\Blog.Core.IService.pdb
+E:\Blog\Blog.Core.Service\bin\Debug\netcoreapp3.1\Blog.Core.Repository.pdb
+E:\Blog\Blog.Core.Service\obj\Debug\netcoreapp3.1\Blog.Core.Service.csprojAssemblyReference.cache
+E:\Blog\Blog.Core.Service\obj\Debug\netcoreapp3.1\Blog.Core.Service.AssemblyInfoInputs.cache
+E:\Blog\Blog.Core.Service\obj\Debug\netcoreapp3.1\Blog.Core.Service.AssemblyInfo.cs
+E:\Blog\Blog.Core.Service\obj\Debug\netcoreapp3.1\Blog.Core.Service.csproj.CoreCompileInputs.cache
+E:\Blog\Blog.Core.Service\obj\Debug\netcoreapp3.1\Blog.Core.Service.csproj.CopyComplete
+E:\Blog\Blog.Core.Service\obj\Debug\netcoreapp3.1\Blog.Core.Service.dll
+E:\Blog\Blog.Core.Service\obj\Debug\netcoreapp3.1\Blog.Core.Service.pdb

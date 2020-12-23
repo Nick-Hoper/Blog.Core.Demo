@@ -1,0 +1,4 @@
+E:\Blog\Blog.Core.Extension\obj\Debug\netcoreapp3.1\Blog.Core.Extension.csprojAssemblyReference.cache
+E:\Blog\Blog.Core.Extension\obj\Debug\netcoreapp3.1\Blog.Core.Extension.AssemblyInfoInputs.cache
+E:\Blog\Blog.Core.Extension\obj\Debug\netcoreapp3.1\Blog.Core.Extension.AssemblyInfo.cs
+E:\Blog\Blog.Core.Extension\obj\Debug\netcoreapp3.1\Blog.Core.Extension.csproj.CoreCompileInputs.cache

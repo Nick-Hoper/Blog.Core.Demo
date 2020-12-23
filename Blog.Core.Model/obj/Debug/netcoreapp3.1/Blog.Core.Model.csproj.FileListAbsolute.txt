@@ -7,4 +7,3 @@ E:\Blog\Blog.Core.Model\obj\Debug\netcoreapp3.1\Blog.Core.Model.AssemblyInfo.cs
 E:\Blog\Blog.Core.Model\obj\Debug\netcoreapp3.1\Blog.Core.Model.csproj.CoreCompileInputs.cache
 E:\Blog\Blog.Core.Model\obj\Debug\netcoreapp3.1\Blog.Core.Model.dll
 E:\Blog\Blog.Core.Model\obj\Debug\netcoreapp3.1\Blog.Core.Model.pdb
-E:\Blog\Blog.Core.Model\obj\Debug\netcoreapp3.1\Blog.Core.Model.csprojAssemblyReference.cache

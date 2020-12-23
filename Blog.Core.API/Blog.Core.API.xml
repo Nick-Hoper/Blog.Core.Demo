@@ -4,10 +4,12 @@
         <name>Blog.Core.API</name>
     </assembly>
     <members>
-        <member name="M:Blog.Core.API.Controllers.WeatherForecastController.Get">
+        <member name="M:Blog.Core.API.Controllers.BlogController.Get(System.Int32,System.Int32)">
             <summary>
-            获取天气信息
+            Sum接口
             </summary>
+            <param name="i">参数i</param>
+            <param name="j">参数j</param>
             <returns></returns>
         </member>
     </members>
