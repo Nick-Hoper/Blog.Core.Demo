@@ -75,6 +75,16 @@
         "frameworkReferences": [
           "Microsoft.AspNetCore.App"
         ]
+      },
+      "Blog.Core.Model/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/Blog.Core.Model.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Blog.Core.Model.dll": {}
+        }
       }
     }
   },
@@ -185,10 +195,16 @@
         "swashbuckle.aspnetcore.swaggerui.5.6.3.nupkg.sha512",
         "swashbuckle.aspnetcore.swaggerui.nuspec"
       ]
+    },
+    "Blog.Core.Model/1.0.0": {
+      "type": "project",
+      "path": "../Blog.Core.Model/Blog.Core.Model.csproj",
+      "msbuildProject": "../Blog.Core.Model/Blog.Core.Model.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
+      "Blog.Core.Model >= 1.0.0",
       "Swashbuckle.AspNetCore >= 5.6.3"
     ]
   },
@@ -218,7 +234,11 @@
       "frameworks": {
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
-          "projectReferences": {}
+          "projectReferences": {
+            "E:\\Blog\\Blog.Core.Model\\Blog.Core.Model.csproj": {
+              "projectPath": "E:\\Blog\\Blog.Core.Model\\Blog.Core.Model.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

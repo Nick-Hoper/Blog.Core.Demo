@@ -4,11 +4,23 @@
         <name>Blog.Core.API</name>
     </assembly>
     <members>
+        <member name="T:Blog.Core.API.Controllers.WeatherForecastController">
+            <summary>
+            天气控制器
+            </summary>
+        </member>
         <member name="M:Blog.Core.API.Controllers.WeatherForecastController.Get">
             <summary>
             获取天气信息
             </summary>
             <returns></returns>
+        </member>
+        <member name="M:Blog.Core.API.Controllers.WeatherForecastController.Post(Blog.Core.Model.Love)">
+            <summary>
+            post请求数据
+            </summary>
+            <param name="love">model实体类参数</param>
+            
         </member>
     </members>
 </doc>

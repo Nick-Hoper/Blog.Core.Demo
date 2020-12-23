@@ -38,7 +38,6 @@ E:\Blog\Blog.Core.API\bin\Debug\netcoreapp3.1\Microsoft.OpenApi.dll
 E:\Blog\Blog.Core.API\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.Swagger.dll
 E:\Blog\Blog.Core.API\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerGen.dll
 E:\Blog\Blog.Core.API\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerUI.dll
-E:\Blog\Blog.Core.API\obj\Debug\netcoreapp3.1\Blog.Core.API.csprojAssemblyReference.cache
 E:\Blog\Blog.Core.API\obj\Debug\netcoreapp3.1\Blog.Core.API.AssemblyInfoInputs.cache
 E:\Blog\Blog.Core.API\obj\Debug\netcoreapp3.1\Blog.Core.API.AssemblyInfo.cs
 E:\Blog\Blog.Core.API\obj\Debug\netcoreapp3.1\Blog.Core.API.csproj.CoreCompileInputs.cache
@@ -52,3 +51,7 @@ E:\Blog\Blog.Core.API\obj\Debug\netcoreapp3.1\Blog.Core.API.csproj.CopyComplete
 E:\Blog\Blog.Core.API\obj\Debug\netcoreapp3.1\Blog.Core.API.dll
 E:\Blog\Blog.Core.API\obj\Debug\netcoreapp3.1\Blog.Core.API.pdb
 E:\Blog\Blog.Core.API\obj\Debug\netcoreapp3.1\Blog.Core.API.genruntimeconfig.cache
+E:\Blog\Blog.Core.API\obj\Debug\netcoreapp3.1\Blog.Core.API.csprojAssemblyReference.cache
+E:\Blog\Blog.Core.API\bin\Debug\netcoreapp3.1\Blog.Core.Model.dll
+E:\Blog\Blog.Core.API\bin\Debug\netcoreapp3.1\Blog.Core.Model.pdb
+E:\Blog\Blog.Core.API\bin\Debug\netcoreapp3.1\Blog.Core.Model.xml

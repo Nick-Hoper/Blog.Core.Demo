@@ -37,10 +37,8 @@ namespace Blog.Core.API
                 {
                     // {ApiName} 定义成全局变量，方便修改
                     Version = "V1",
-                    Title = $"{ApiName} 接口文档——Netcore 3.0",
+                    Title = $"{ApiName} 接口文档——Netcore 3.1",
                     Description = $"{ApiName} HTTP API V1",
-                    //Contact = new OpenApiContact { Name = ApiName, Email = "Blog.Core@xxx.com", Url = new Uri("https://www.jianshu.com/u/94102b59cc2a") },
-                    //License = new OpenApiLicense { Name = ApiName, Url = new Uri("https://www.jianshu.com/u/94102b59cc2a") }
                  });
                 c.OrderActionsBy(o => o.RelativePath);
 
@@ -48,6 +46,8 @@ namespace Blog.Core.API
                 var xmlPath = Path.Combine(basePath, "Blog.Core.API.xml");//这个就是刚刚配置的xml文件名
                 c.IncludeXmlComments(xmlPath, true);//默认的第二个参数是false，这个是controller的注释，记得修改
 
+                var xmlModelPath = Path.Combine(basePath, "Blog.Core.Model.xml");//这个就是Model层的xml文件名
+                c.IncludeXmlComments(xmlModelPath);
             });
         }
 
@@ -64,10 +64,10 @@ namespace Blog.Core.API
             {
                 c.SwaggerEndpoint($"/swagger/V1/swagger.json", $"{ApiName} V1");
 
-                 //路径配置，设置为空，表示直接在根域名（localhost:8001）访问该文件,注意localhost:8001/swagger是访问不到的，去launchSettings.json把launchUrl去掉，如果你想换一个路径，直接写名字即可，比如直接写c.RoutePrefix = "doc";
-                 c.RoutePrefix = "";
+                //原来的访问地址localhost:5000/swagger，如果想在根域名（localhost:5000）访问该文件，可以配置下面代码
+                //路径配置为空，表示直接在根域名（localhost:5000）访问该文件,然后在launchSettings.json文件把launchUrl去掉，如果你想换一个路径，直接写名字即可，比如直接写c.RoutePrefix = "doc";
+                c.RoutePrefix = "";
             });
-
 
             app.UseRouting();
 

@@ -1,0 +1,10 @@
+E:\Blog\Blog.Core.Model\bin\Debug\netcoreapp3.1\Blog.Core.Model.deps.json
+E:\Blog\Blog.Core.Model\bin\Debug\netcoreapp3.1\Blog.Core.Model.dll
+E:\Blog\Blog.Core.Model\bin\Debug\netcoreapp3.1\Blog.Core.Model.pdb
+E:\Blog\Blog.Core.Model\bin\Debug\netcoreapp3.1\Blog.Core.Model.xml
+E:\Blog\Blog.Core.Model\obj\Debug\netcoreapp3.1\Blog.Core.Model.AssemblyInfoInputs.cache
+E:\Blog\Blog.Core.Model\obj\Debug\netcoreapp3.1\Blog.Core.Model.AssemblyInfo.cs
+E:\Blog\Blog.Core.Model\obj\Debug\netcoreapp3.1\Blog.Core.Model.csproj.CoreCompileInputs.cache
+E:\Blog\Blog.Core.Model\obj\Debug\netcoreapp3.1\Blog.Core.Model.dll
+E:\Blog\Blog.Core.Model\obj\Debug\netcoreapp3.1\Blog.Core.Model.pdb
+E:\Blog\Blog.Core.Model\obj\Debug\netcoreapp3.1\Blog.Core.Model.csprojAssemblyReference.cache
