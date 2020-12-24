@@ -2,6 +2,7 @@
 using Blog.Core.IService;
 using Blog.Core.Model.Models;
 using Blog.Core.Repository;
+using Blog.Core.Service.BASE;
 using System;
 using System.Collections.Generic;
 using System.Linq.Expressions;
@@ -9,7 +10,7 @@ using System.Text;
 
 namespace Blog.Core.Service
 {
-    public class AdvertisementServices : IAdvertisementServices
+    public class AdvertisementServices : BaseServices<Advertisement>,IAdvertisementServices
     {
         public IAdvertisementRepository dal = new AdvertisementRepository();
         public int Sum(int i, int j)
@@ -17,25 +18,25 @@ namespace Blog.Core.Service
             return dal.Sum(i, j);
 
         }
-        public int Add(Advertisement model)
-        {
-            return dal.Add(model);
-        }
+        //public int Add(Advertisement model)
+        //{
+        //    return dal.Add(model);
+        //}
 
-        public bool Delete(Advertisement model)
-        {
-            return dal.Delete(model);
-        }
+        //public bool Delete(Advertisement model)
+        //{
+        //    return dal.Delete(model);
+        //}
 
-        public List<Advertisement> Query(Expression<Func<Advertisement, bool>> whereExpression)
-        {
-            return dal.Query(whereExpression);
+        //public List<Advertisement> Query(Expression<Func<Advertisement, bool>> whereExpression)
+        //{
+        //    return dal.Query(whereExpression);
 
-        }
+        //}
 
-        public bool Update(Advertisement model)
-        {
-            return dal.Update(model);
-        }
+        //public bool Update(Advertisement model)
+        //{
+        //    return dal.Update(model);
+        //}
     }
 }

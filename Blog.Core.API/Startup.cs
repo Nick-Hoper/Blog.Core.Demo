@@ -1,3 +1,4 @@
+using Blog.Core.Repository.sugar;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc;
@@ -49,6 +50,9 @@ namespace Blog.Core.API
                 var xmlModelPath = Path.Combine(basePath, "Blog.Core.Model.xml");//这个就是Model层的xml文件名
                 c.IncludeXmlComments(xmlModelPath);
             });
+
+            //数据库配置
+            BaseDBConfig.ConnectionString = Configuration.GetSection("AppSettings:MysqlConnection").Value;
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

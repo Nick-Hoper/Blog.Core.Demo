@@ -32,15 +32,15 @@ namespace Blog.Core.API.Controllers
 
         // GET: api/Blog/5
         /// <summary>
-        /// 
+        /// 根据id获取数据
         /// </summary>
-        /// <param name="id"></param>
+        /// <param name="id">参数id</param>
         /// <returns></returns>
         [HttpGet("{id}", Name = "Get")]
-        public List<Advertisement> Get(int id)
+        public async Task<List<Advertisement>> Get(int id)
         {
             IAdvertisementServices advertisementServices = new AdvertisementServices();
-            return advertisementServices.Query(d => d.Id == id);
+            return await advertisementServices.Query(d => d.Id == id);
         }
 
         // POST api/<BlogController>
