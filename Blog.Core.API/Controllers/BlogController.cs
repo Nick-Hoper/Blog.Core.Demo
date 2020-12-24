@@ -5,6 +5,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Blog.Core.IService;
 using Blog.Core.Service;
+using Blog.Core.Model.Models;
 
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
@@ -27,6 +28,19 @@ namespace Blog.Core.API.Controllers
         {
             IAdvertisementServices advertisementServices = new AdvertisementServices();
             return advertisementServices.Sum(i, j);
+        }
+
+        // GET: api/Blog/5
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="id"></param>
+        /// <returns></returns>
+        [HttpGet("{id}", Name = "Get")]
+        public List<Advertisement> Get(int id)
+        {
+            IAdvertisementServices advertisementServices = new AdvertisementServices();
+            return advertisementServices.Query(d => d.Id == id);
         }
 
         // POST api/<BlogController>

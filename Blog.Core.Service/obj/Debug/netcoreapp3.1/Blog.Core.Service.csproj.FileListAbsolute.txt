@@ -3,10 +3,13 @@ E:\Blog\Blog.Core.Service\bin\Debug\netcoreapp3.1\Blog.Core.Service.dll
 E:\Blog\Blog.Core.Service\bin\Debug\netcoreapp3.1\Blog.Core.Service.pdb
 E:\Blog\Blog.Core.Service\bin\Debug\netcoreapp3.1\Blog.Core.IRepository.dll
 E:\Blog\Blog.Core.Service\bin\Debug\netcoreapp3.1\Blog.Core.IService.dll
+E:\Blog\Blog.Core.Service\bin\Debug\netcoreapp3.1\Blog.Core.Model.dll
 E:\Blog\Blog.Core.Service\bin\Debug\netcoreapp3.1\Blog.Core.Repository.dll
 E:\Blog\Blog.Core.Service\bin\Debug\netcoreapp3.1\Blog.Core.IRepository.pdb
 E:\Blog\Blog.Core.Service\bin\Debug\netcoreapp3.1\Blog.Core.IService.pdb
 E:\Blog\Blog.Core.Service\bin\Debug\netcoreapp3.1\Blog.Core.Repository.pdb
+E:\Blog\Blog.Core.Service\bin\Debug\netcoreapp3.1\Blog.Core.Model.pdb
+E:\Blog\Blog.Core.Service\bin\Debug\netcoreapp3.1\Blog.Core.Model.xml
 E:\Blog\Blog.Core.Service\obj\Debug\netcoreapp3.1\Blog.Core.Service.csprojAssemblyReference.cache
 E:\Blog\Blog.Core.Service\obj\Debug\netcoreapp3.1\Blog.Core.Service.AssemblyInfoInputs.cache
 E:\Blog\Blog.Core.Service\obj\Debug\netcoreapp3.1\Blog.Core.Service.AssemblyInfo.cs

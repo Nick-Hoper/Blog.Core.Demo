@@ -1,8 +1,13 @@
 E:\Blog\Blog.Core.IService\bin\Debug\netcoreapp3.1\Blog.Core.IService.deps.json
 E:\Blog\Blog.Core.IService\bin\Debug\netcoreapp3.1\Blog.Core.IService.dll
 E:\Blog\Blog.Core.IService\bin\Debug\netcoreapp3.1\Blog.Core.IService.pdb
+E:\Blog\Blog.Core.IService\bin\Debug\netcoreapp3.1\Blog.Core.Model.dll
+E:\Blog\Blog.Core.IService\bin\Debug\netcoreapp3.1\Blog.Core.Model.pdb
+E:\Blog\Blog.Core.IService\bin\Debug\netcoreapp3.1\Blog.Core.Model.xml
+E:\Blog\Blog.Core.IService\obj\Debug\netcoreapp3.1\Blog.Core.IService.csprojAssemblyReference.cache
 E:\Blog\Blog.Core.IService\obj\Debug\netcoreapp3.1\Blog.Core.IService.AssemblyInfoInputs.cache
 E:\Blog\Blog.Core.IService\obj\Debug\netcoreapp3.1\Blog.Core.IService.AssemblyInfo.cs
 E:\Blog\Blog.Core.IService\obj\Debug\netcoreapp3.1\Blog.Core.IService.csproj.CoreCompileInputs.cache
+E:\Blog\Blog.Core.IService\obj\Debug\netcoreapp3.1\Blog.Core.IService.csproj.CopyComplete
 E:\Blog\Blog.Core.IService\obj\Debug\netcoreapp3.1\Blog.Core.IService.dll
 E:\Blog\Blog.Core.IService\obj\Debug\netcoreapp3.1\Blog.Core.IService.pdb

@@ -1,8 +1,0 @@
-E:\Blog\Blog.Core.Common\bin\Debug\netcoreapp3.1\Blog.Core.Common.deps.json
-E:\Blog\Blog.Core.Common\bin\Debug\netcoreapp3.1\Blog.Core.Common.dll
-E:\Blog\Blog.Core.Common\bin\Debug\netcoreapp3.1\Blog.Core.Common.pdb
-E:\Blog\Blog.Core.Common\obj\Debug\netcoreapp3.1\Blog.Core.Common.AssemblyInfoInputs.cache
-E:\Blog\Blog.Core.Common\obj\Debug\netcoreapp3.1\Blog.Core.Common.AssemblyInfo.cs
-E:\Blog\Blog.Core.Common\obj\Debug\netcoreapp3.1\Blog.Core.Common.csproj.CoreCompileInputs.cache
-E:\Blog\Blog.Core.Common\obj\Debug\netcoreapp3.1\Blog.Core.Common.dll
-E:\Blog\Blog.Core.Common\obj\Debug\netcoreapp3.1\Blog.Core.Common.pdb

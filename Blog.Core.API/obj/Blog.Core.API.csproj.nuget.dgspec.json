@@ -100,7 +100,11 @@
         "frameworks": {
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
-            "projectReferences": {}
+            "projectReferences": {
+              "E:\\Blog\\Blog.Core.Model\\Blog.Core.Model.csproj": {
+                "projectPath": "E:\\Blog\\Blog.Core.Model\\Blog.Core.Model.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -154,7 +158,11 @@
         "frameworks": {
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
-            "projectReferences": {}
+            "projectReferences": {
+              "E:\\Blog\\Blog.Core.Model\\Blog.Core.Model.csproj": {
+                "projectPath": "E:\\Blog\\Blog.Core.Model\\Blog.Core.Model.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -278,6 +286,12 @@
       "frameworks": {
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "SqlSugarCore": {
+              "target": "Package",
+              "version": "[5.0.1.7, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
